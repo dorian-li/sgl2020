@@ -20,6 +20,11 @@ class SGL2020:
             return
         self.data = self._reload_data()
         self._cache_data()
+        self._set_all_line()
+
+    def _set_all_line(self):
+        if not hasattr(self, "_line"):
+            self._line = self.data["line"].drop_duplicates().to_list()
 
     @property
     def cache_src(self):
