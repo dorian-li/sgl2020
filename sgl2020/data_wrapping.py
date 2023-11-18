@@ -17,6 +17,7 @@ class SGL2020:
 
         if self._check_legacy_exists():
             self.data = self._load_legacy_data()
+            self._set_all_line()
             return
         self.data = self._reload_data()
         self._cache_data()
