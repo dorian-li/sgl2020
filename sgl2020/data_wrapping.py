@@ -1,3 +1,5 @@
+from typing import List, Union
+
 import pandas as pd
 import pooch
 from deinterf import TollesLawsonCompensator
@@ -87,13 +89,13 @@ class SGL2020:
         logger.info("done")
         return data
 
-    def line(self, line: float | list[float]):
+    def line(self, line: Union[float, List[float]]):
         if isinstance(line, float):
             line = [line]
         self._line = line
         return self
 
-    def source(self, source: str | list[str]):
+    def source(self, source: Union[str, List[str]]):
         if isinstance(source, str):
             source = [source]
         self._source = source
