@@ -2,7 +2,7 @@ import pooch
 
 Resource = pooch.create(
     path=pooch.os_cache("sgl2020"),
-    base_url="http://lab-server.l4y.top:1145/sgl2020/",
+    base_url="doi:10.5281/zenodo.4271803/",
     registry={
         "Flt1002_train.h5": "md5:d42e6579719e31d17115c9b8ed3e4471",
         "Flt1003_train.h5": "md5:bc0e819bebb8bc9d4814cdbce0fb911a",
