@@ -8,12 +8,12 @@ Data wrapper for SGL2020 aeromagnetic survey.
 - Support multiple ways to select line data, such as selecting all lines, all lines for specific flights, line range, etc.
 - Provide flight and sensor descriptions to help understand the structure and content of the dataset.
 
-## Install
+## Installation
 
 ```bash
-# stable
+# Stable
 pip install sgl2020
-# nightly
+# Nightly
 pip install git+https://github.com/dorian-li/sgl2020.git
 ```
 
@@ -74,7 +74,7 @@ pip install git+https://github.com/dorian-li/sgl2020.git
 - Show infomation of flight `1002`
   ```python
   Sgl2020.describe("1002")
-  # or use integer
+  # Or use integer
   Sgl2020.describe(1002)
   ```
 - Show all flight infomation
@@ -85,3 +85,7 @@ pip install git+https://github.com/dorian-li/sgl2020.git
 # Thanks
 
 Sincerely thank the [MagNav.jl](https://github.com/MIT-AI-Accelerator/MagNav.jl) team for their publicly available resources.
+
+# Disclaimers
+
+Regarding the authorization scope of data, please strictly follow the instructions of the original repo regarding the [Data Sharing Agreement](https://github.com/MIT-AI-Accelerator/MagNav.jl/blob/master/readmes/DATA_SHARING_AGREEMENT.md)

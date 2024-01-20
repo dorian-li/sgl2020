@@ -1,6 +1,6 @@
 [project]
 name = "sgl2020"
-version = "0.1.0"
+version = "0.1.1"
 description = "Data Wrapper for SGL2020 Aeromagnetic Survey"
 requires-python = ">=3.9"
 dependencies = [
