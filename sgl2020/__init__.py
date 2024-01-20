@@ -1,1 +1,1 @@
-from .data_wrapping import SGL2020
+from .data_wrapping import Sgl2020
