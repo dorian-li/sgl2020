@@ -1,9 +1,16 @@
 [project]
 name = "sgl2020"
-version = "0.0.1"
+version = "0.1.0"
 description = "Data Wrapper for SGL2020 Aeromagnetic Survey"
 requires-python = ">=3.9"
-dependencies = ["numpy", "h5py", "pandas", "loguru", "pooch", "deinterf"]
+dependencies = [
+    "numpy",
+    "h5py",
+    "pandas",
+    "pooch",
+    "prettytable",
+    "typing-extensions",
+]
 authors = [{ name = "dorian", email = "dorian.li@outlook.com" }]
 readme = "README.md"
 classifiers = [
